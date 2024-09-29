@@ -9,7 +9,7 @@
 <body>
     <div class="container mt-4">
         <h1>List of Users</h1>
-
+        <p>Made by <b> Mohamed Nasser! </b>- PHP/Laravel Track with <b>Mindset Training</b>.</p>
         <!-- Button to generate 100 users -->
         <form action="{{ route('users.generate') }}" method="POST" class="mb-3">
             @csrf
